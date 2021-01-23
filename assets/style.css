@@ -187,17 +187,6 @@ nav ul {
 }
 
 nav ul li a {
-	-webkit-text-align: center;
-	-webkit-line-height: 60px;
-	-webkit-width: 100px;
-	-webkit-height: 60px;
-	-webkit-display: block;
-	-webkit-font-size: 20px;
-	-webkit-color: rgba(250,250,250);
-	-webkit-text-decoration: none;
-	-webkit-margin: auto;
-	-webkit-font-weight: bold;
-
 	text-align: center;
 	line-height: 60px;
 	width: 100px;
@@ -613,8 +602,8 @@ form  input, textarea {
 	}
 }
 
-
-footer {
+/*footer*/
+/*footer {
 	margin-top: 150px;
 	height: 300px;
 	width: 100%;
@@ -677,14 +666,185 @@ footer h4 {
 	}
 
 }
+*/
+
+/*footer {
+	margin-top: 150px;
+	height: 400px;
+	width: 100%;
+	background-color: salmon;
+	justify-content: center;
+	
+	background-color: #c90000;
+}
+
+footer .containerft {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 100%;
+	position: relative;
+}
+footer .ftdgbroilerlogo{
+
+	width: 150px;
+	margin-top: -25px;
+}*/
+
+/*div dari pertama dan kedua*/
+
+/*child pertama dari display flexrow .containerft*/
+/*footer .containerft .pertama {
+	margin-top: 130px;
+	box-sizing: border-box;
+}*/
+/*child kedua dari display flexrow .containerft*/
+/*footer .containerft .kedua {
+	margin-top: 154px;
+	box-sizing: border-box;
+}*/
+/*hubungi kami*/
+/*footer h5 {
+	font-size: 32px;
+	color: rgb(245,245,245);
+}
+
+footer ul li a {
+	color: rgb(240,240,240);
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	text-decoration-style: none;
+	margin-left: 5px;
+}
+
+footer ul li {
+	margin-top: 6px;
+}
+
+footer ul {
+	margin-top: 15px;
+}
+
+footer ul li img {
+	width: 15px;
+}*/
 
 
+/*footer copyright*/
+/*footer .copyright {
+	height: 40px;
+	margin-top: 150px;
+	background-color: #ffef0f;
+	text-align: center;
+}
+
+footer span {
+	line-height: 40px;
+	font-size: 14px;
+}
+
+*/
+/*footer*/
+footer {
+	height: 400px;
+	background-color: #e60000;
+	width: 100%;
+	margin-top: 150px;
+	position: relative;
+}
+
+footer #bckcolorft {
+	background-color: #d40000;
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	border-bottom-right-radius: 45%;
+}
+
+footer .ftcontainerrow{
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	margin: auto;
+	/*background-color: blue;*/
+}
+
+footer .flexchdrow ul li {
+	margin-top: 16px;
+	margin-left: 5px;
+}
+
+footer ul li a {
+	font-size: 18px;
+	margin-left: 6px;
+	color: rgb(245,245,245);
+}
+
+footer ul li .sclogo {
+	width: 16px;
+	position: relative;
+}
+
+footer .flexchdrow {
+	margin: auto;
+	width: 250px;
+/*	background-color: green;
+*/	position: relative;
+}
+
+footer img {
+	width: 140px;
+	position: absolute;
+}
+/*thiiswherefunbegin*/
+footer .flexchdrow h5 {
+	margin-top: 134px;
+	font-size: 32px;
+	color: rgb(245,245,245);
+}
+
+footer .scndft ul {
+	margin-top: 134px;
+}
+
+footer .copyrightcol {
+	margin-top: 145px;
+	padding: 5px;
+	text-align: center;
+	background-color: #d40000;
+	color: rgb(245,245,245);
+}
 
 
+@media only screen and (max-width: 515px)
+{
+	footer .ftcontainerrow{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin: auto;
+	}
+	footer .scndft ul {
+		margin-top: 0px;
+	}
+	footer .flexchdrow {
+	margin-top: 135px;
+	margin: auto;
+	margin-left: 50px;
+	width: 250px;
+/*	background-color: green;
+*/	position: relative;
+	}
+	footer .copyrightcol {
+	margin-top: 110px;
+	padding: 5px;
+	text-align: center;
+	background-color: #d40000;
+	color: rgb(245,245,245);
+}
 
-
-
-
+}
 
 
 
