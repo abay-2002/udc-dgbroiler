@@ -501,9 +501,8 @@ aside .row .service:hover .pesan {
 	font-weight: bold;
 	margin: auto;
 }
-
+/*gallery*/
 /*form*/
-
 form {
 	width: 100%;	
 	margin-top: 110px;
@@ -561,7 +560,8 @@ form  input, textarea {
 	border-radius: 5px;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.4);
 }
-
+/*penutup form*/
+/*responsive form*/
 @media only screen and (max-width: 450px) {
 	form .container {
 		width: 340px;
@@ -601,150 +601,8 @@ form  input, textarea {
 	position: static;
 	}
 }
+/*penutup responsive form*/
 
-/*footer*/
-/*footer {
-	margin-top: 150px;
-	height: 300px;
-	width: 100%;
-	margin-bottom: 0px;
-	background-color: #1c1c1c;
-
-	position: relative;
-	box-shadow: 10px 0 10px rgba(0,0,0,0.5);
-}
-
-footer .bgcolor {
-	background-color: #262626;
-	height: 70%;
-	width: 90%;
-	border-bottom-right-radius: 75%;
-}
-
-footer img {
-	position: absolute;
-	top: 1%;
-	left: 1%;
-}
-
-footer h2 {
-	
-}
-
-footer h3 {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	margin-bottom: 10px;
-	font-size: 13px;
-	text-align: center;
-	color: #cfcfcf;
-	font-weight: bold;
-}
-
-footer h4 {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	line-height: 300px;
-	font-size: 68px;
-	text-align: center;
-	color: #f7f7f7;
-	font-weight: bold;
-}
-
-@media only screen and (max-width: 460px) {
-	footer h4 {
-		font-size: 48px;
-	}
-
-}
-
-@media only screen and (max-width: 285px) {
-	footer h4 {
-		font-size: 38px;
-	}
-
-}
-*/
-
-/*footer {
-	margin-top: 150px;
-	height: 400px;
-	width: 100%;
-	background-color: salmon;
-	justify-content: center;
-	
-	background-color: #c90000;
-}
-
-footer .containerft {
-	display: flex;
-	flex-direction: row;
-	margin: auto;
-	width: 100%;
-	position: relative;
-}
-footer .ftdgbroilerlogo{
-
-	width: 150px;
-	margin-top: -25px;
-}*/
-
-/*div dari pertama dan kedua*/
-
-/*child pertama dari display flexrow .containerft*/
-/*footer .containerft .pertama {
-	margin-top: 130px;
-	box-sizing: border-box;
-}*/
-/*child kedua dari display flexrow .containerft*/
-/*footer .containerft .kedua {
-	margin-top: 154px;
-	box-sizing: border-box;
-}*/
-/*hubungi kami*/
-/*footer h5 {
-	font-size: 32px;
-	color: rgb(245,245,245);
-}
-
-footer ul li a {
-	color: rgb(240,240,240);
-	text-decoration: none;
-	list-style: none;
-	font-size: 20px;
-	text-decoration-style: none;
-	margin-left: 5px;
-}
-
-footer ul li {
-	margin-top: 6px;
-}
-
-footer ul {
-	margin-top: 15px;
-}
-
-footer ul li img {
-	width: 15px;
-}*/
-
-
-/*footer copyright*/
-/*footer .copyright {
-	height: 40px;
-	margin-top: 150px;
-	background-color: #ffef0f;
-	text-align: center;
-}
-
-footer span {
-	line-height: 40px;
-	font-size: 14px;
-}
-
-*/
 /*footer*/
 footer {
 	height: 400px;
@@ -752,6 +610,7 @@ footer {
 	width: 100%;
 	margin-top: 150px;
 	position: relative;
+	overflow: hidden;
 }
 
 footer #bckcolorft {
@@ -815,47 +674,34 @@ footer .copyrightcol {
 	background-color: #d40000;
 	color: rgb(245,245,245);
 }
-
-
-@media only screen and (max-width: 515px)
-{
-	footer .ftcontainerrow{
-	display: flex;
-	flex-direction: column;
-	width: 600px;
-	margin: auto;
-	}
-	footer .scndft ul {
-		margin-top: 0px;
-	}
-	footer .flexchdrow {
-	margin-top: 135px;
-	margin: auto;
-	margin-left: 50px;
-	width: 250px;
-/*	background-color: green;
-*/	position: relative;
-	}
-	footer .copyrightcol {
-	margin-top: 110px;
-	padding: 5px;
-	text-align: center;
-	background-color: #d40000;
-	color: rgb(245,245,245);
+/*penutup footer*/
+/*responsive footer*/
+@media only screen and (max-width: 515px){
+		footer .ftcontainerrow{
+		display: flex;
+		flex-direction: column;
+		width: 600px;
+		margin: auto;
+		}
+		footer .scndft ul {
+			margin-top: 0px;
+		}
+		footer .flexchdrow {
+		margin-top: 135px;
+		margin: auto;
+		margin-left: 50px;
+		width: 250px;
+		position: relative;
+		}
+		footer .copyrightcol{
+		margin-top: 110px;
+		padding: 5px;
+		text-align: center;
+		background-color: #d40000;
+		color: rgb(245,245,245);
+		}
 }
-
-}
-
-
-
-
-
-
-
-
-
-
-
+/*penutup responsive footer*/
 
 
 

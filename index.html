@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
 	<title>DapoerDaeng20</title>
 	 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!--mediaquery-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
     <!-- my css -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="shortcut icon" type="img/png" href="assets/img/favicondgbroiler160x160px.png">
@@ -83,10 +77,11 @@
 			</div><!--prg-->
 		</div>
 	</main>
+
+	<!-- paket -->
 	<aside>
 		<h2 id="services">Pesan sekarang!</h2>
-		<div class="row">
-
+		<div class="row"><!-- flexboxdirrowjugaditambahrowlagidaribootstrap -->
 			<a href="https://wa.me/6282297008375/?text=Hallo%20Dgbroiler%20saya%20ingin%20pesan%20paket%20satu" target="blank">
 				<div class="service">
 					<h3>Paket 1</h3>
@@ -99,7 +94,6 @@
 					<div class="pesan"><span>Pesan</span></div>
 				</div>
 			</a>
-
 			<a href="https://wa.me/6282297008375/?text=Hallo%20Dgbroiler%20saya%20ingin%20pesan%20paket%20dua" target="blank">
 				<div class="service">
 					<h3>Paket 2</h3>
@@ -110,7 +104,6 @@
 					<div class="pesan"><span>Pesan</span></div>
 				</div>
 			</a>
-			
 			<a href="https://wa.me/6282297008375/?text=Hallo%20Dgbroiler%20saya%20ingin%20pesan%20paket%20tiga" target="blank">
 				<div class="service">
 					<h3>Paket 3</h3>
@@ -121,13 +114,14 @@
 					<div class="pesan"><span>Pesan</span></div>
 				</div>
 			</a>
-
 		</div><!--row-->
 	</aside>
-	
+	<!-- penutup paket -->
+
+	<!-- gallery -->
 	<h2 class="gallery" id="gallery">Galeri</h2>	
-	<div class="mx-auto " ><!--gallery-->
-		<div id="carouselExampleIndicators" class="carousel slide mx-4" data-ride="carousel">
+	<div id="gallerywrapper" ><!--gallery-->
+		<div id="carouselExampleIndicators" class="carousel slide mx-auto col-lg-8 col-12" data-ride="carousel">
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -135,7 +129,7 @@
 			  </ol>
 			<div class="carousel-inner">
 		    <div class="carousel-item active">
-			    <img class="d-block  mx-auto" src="assets/img/ayam.png" alt="First slide" width="70%">
+			    <img class="d-block mx-auto" src="assets/img/ayam.png" alt="First slide" width="70%">
 				      <!-- .carousel-caption element within any .carousel-item.-->
 				<div class="carousel-caption d-none d-md-block">
 				    <h5>Ayam kami</h5>
@@ -144,7 +138,7 @@
 		    </div>
 
 		  	<div class="carousel-item">
-			    <img class="d-block  mx-auto" src="assets/img/ayams2.png" alt="Second slide" width="70%">
+			    <img class="d-block mx-auto" src="assets/img/ayams2.png" alt="Second slide" width="70%">
 			      <!-- .carousel-caption element within any .carousel-item.-->
 			    <div class="carousel-caption d-none d-md-block">
 					<h5>...</h5>
@@ -153,7 +147,7 @@
 			</div>
 
 			 <div class="carousel-item">
-			    <img class="d-block  mx-auto" src="assets/img/ayams3.png" alt="Third slide" width="70%">
+			    <img class="d-block mx-auto" src="assets/img/ayams3.png" alt="Third slide" width="70%">
 			      <!-- .carousel-caption element within any .carousel-item.-->
 			     <div class="carousel-caption d-none d-md-block">
 					<h5>...</h5>
@@ -161,8 +155,9 @@
 				</div>
 			 </div>
 		</div><!--penutup carouselExampleIndicators-->
-	</div><!--penutup mx-auto-->
+	</div><!--penutup gallery mx-auto-->
 	
+	<!-- form -->
 	<form action="POST" data-netlify="true" id="hubungi">
 		<div class="container">
 			<h1>Hubungi Kami</h1>
@@ -192,10 +187,13 @@
 			</div>
 		</div>
 	</form>
-	<footer>
-		<div id="bckcolorft"></div>
-		<div class="ftcontainerrow">
-			<div class="flexchdrow frstft">
+	<!-- penutup form -->	
+
+	<!-- footer -->
+	<footer><!-- relative -->
+		<div id="bckcolorft"></div><!-- absolute -->
+		<div class="ftcontainerrow"><!-- flexbox -->
+			<div class="flexchdrow frstft"><!-- relative -->
 				<img src="assets/img/Dgbroilerlogo.png">
 				<h5>Hubungi Kami</h5>
 				<ul>
@@ -203,47 +201,18 @@
 					<li><img class="sclogo" src="assets/img/whatsapplogo.png"><a href="#">Whatsapp</a></li>
 				</ul>
 			</div>
-			<div class="flexchdrow scndft">
+			<div class="flexchdrow scndft"><!-- flexbox -->
 				<ul>
 					<li><img class="sclogo" src="assets/img/gmaillogo.png"><a href="#">Email</a></li>
 				</ul>
 			</div>
-		</div>
+		</div><!-- PENUTUP ftcontainerrow -->
+		
 		<div class="copyrightcol">
 			<span>©2020 Dgbroiler
 		</div>
-		
 	</footer>
-<!-- 	<footer>
-		<div class="containerft">
-			<img class="ftdgbroilerlogo" src="assets/img/favicondgbroiler160x160px.png">
-			<div class="pertama ftlink">
-				<h5>Hubungi Kami</h5>
-					<ul>
-						<li><img src="assets/img/instagramlogo.png"><a href="#">Instagram</a></li>
-						<li><img src="assets/img/whatsapplogo.png"><a href="#">Whatsapp</a></li>
-					</ul>
-			</div>
-			<div class="kedua ftlink">
-					<ul>
-						<li><img src="assets/img/gmaillogo.png"><a href="#">Email</a></li>
-
-					</ul>
-			</div>
-		</div>
-		<div class="copyright">
-			<span>©2020 DgBroiler</span>
-		</div>
-	</footer> -->
-
-<!-- 	<footer>
-		<img src="assets/img/Dgbroilerlogo100x50.png">
-		<div class="bgcolor"></div>
-		<h3>© Dg.Broiler 2020</h3>
-		<h4>Terima Kasih</h4>
-	</footer> -->
-
-
+	<!-- penutup footer -->
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
